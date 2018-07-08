@@ -1,1 +1,1 @@
-This is an iOS app for displaying weatherr of different cities.
+This is an iOS app for displaying weather of different cities.
