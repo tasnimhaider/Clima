@@ -1,10 +1,5 @@
 //
 //  ViewController.swift
-//  WeatherApp
-//
-//  Created by Angela Yu on 23/08/2015.
-//  Copyright (c) 2015 London App Brewery. All rights reserved.
-//
 
 import UIKit
 import CoreLocation
@@ -61,10 +56,6 @@ class WeatherViewController: UIViewController, CLLocationManagerDelegate, Change
         }
     }
     
-    
-    
-    
-    
     //MARK: - JSON Parsing
     /***************************************************************/
    
@@ -120,8 +111,6 @@ class WeatherViewController: UIViewController, CLLocationManagerDelegate, Change
     }
     
     
-
-    
     //MARK: - Change City Delegate methods
     /***************************************************************/
     func userEnteredANewCityName(city: String) {
@@ -130,7 +119,6 @@ class WeatherViewController: UIViewController, CLLocationManagerDelegate, Change
     }
     //Write the userEnteredANewCityName Delegate method here:
     
-
     
     //Write the PrepareForSegue Method here
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
